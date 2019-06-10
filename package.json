@@ -1,0 +1,8 @@
+{
+  "name": "leeofham.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:leeofham/leeofham.github.io.git",
+  "author": "Liam Roberts <liamroberts300@gmail.com>",
+  "license": "MIT"
+}
