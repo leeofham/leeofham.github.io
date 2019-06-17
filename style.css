@@ -90,23 +90,62 @@ hr{
   border: none;
 }
 
-i{
+.icon-top{
   color: white;
   font-size: 50px;
   margin:0px 15px;
 }
 
-i:hover{
+.icon-top:hover{
   color: #FF7705;
   transform: scale(1.4);
 }
 
 .about, .projects, .contact{
   height: 100vh;
-  width: 1200px;
   margin: 0 auto;
 }
 
 .anchor {
-  padding-top: 8vh;
+  padding-top: 9vh;
+}
+
+.about{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-title{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+  color: #202D69;
+  border-bottom: solid #AB2849 5px;
+  margin-bottom: 8vh;
+}
+
+.about-columns{
+  display: flex;
+  flex-direction: row;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: #202D69;
+}
+
+.left-column{
+  width: 700px;
+  margin-right: 7%;
+}
+
+.right-column{
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 7%;
+}
+
+.icon-tech{
+  font-size: 80px;
+  margin: 10px;
 }
