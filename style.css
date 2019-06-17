@@ -1,29 +1,112 @@
 *{
-  font-family: Arial, sans-serif;
+  box-sizing: border-box;
 }
 
-ol, ul {
+html, body{
   display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+navbar{
+  position: fixed;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
   flex-direction: row;
-	list-style: none;
-  padding: 0px;
+  height:8vh;
+  background-color: #202D69;
 }
 
-li{
-  margin: 0px 20px 0px 0px;
+.logo{
+  font-family: 'Montserrat', sans-serif;
+  margin: -35px 30px;
+  font-size: 30px;
+  color: white;
 }
 
-html, body, header {
+.links{
+  font-family: 'Montserrat', sans-serif;
+  margin: 17px 30px;
+}
+
+.links a{
+  font-size: 20px;
+  text-decoration: none;
+  margin-right: 20px;
+  color: white;
+}
+
+.links a:hover{
+  margin-right: 20px;
+  color: #FF7705;
+}
+
+.two:hover ~ hr {
+  margin-left: 30%;
+  width: 27.5%
+}
+
+.three:hover ~ hr {
+  margin-left: 66%;
+  width: 27.3%
+}
+
+.underline {
+  height: .25rem;
+  width: 21.5%;
+  margin: 0;
+  background: #AB2849;
+  border: none;
+  transition: .3s ease-in-out;
+}
+
+.hero{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: grey;
-	color: #fff;
-	font-family: Arial, sans-serif;
-	font-size: 15pt;
-	font-weight: 300 !important;
-	letter-spacing: -0.025em;
-	line-height: 1.75em;
+  height: 100vh;
+  background-color: #202D69;
+}
+
+h1{
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+  text-align: center;
+  color: #FF7705;
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr{
+  background-color: #AB2849;
+  height: 5px;
+  border: none;
+}
+
+i{
+  color: white;
+  font-size: 50px;
+  margin:0px 15px;
+}
+
+i:hover{
+  color: #FF7705;
+  transform: scale(1.4);
+}
+
+.about, .projects, .contact{
+  height: 100vh;
+  width: 1200px;
   margin: 0 auto;
+}
+
+.anchor {
+  padding-top: 8vh;
 }
