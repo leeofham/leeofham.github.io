@@ -107,7 +107,7 @@ hr{
 }
 
 .anchor {
-  padding-top: 9vh;
+  padding-top: 12vh;
 }
 
 .about{
@@ -138,14 +138,18 @@ hr{
 }
 
 .right-column{
-  width: 400px;
+  width: 450px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-left: 7%;
+  margin-left: 3%;
 }
 
 .icon-tech{
-  font-size: 80px;
+  font-size: 76.5px;
   margin: 10px;
+}
+
+.icon-tech:hover{
+  transform: scale(1.4);
 }
