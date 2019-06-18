@@ -8,6 +8,10 @@ html, body{
   margin: 0;
 }
 
+a:visited{
+  color: #202D69;
+}
+
 navbar{
   position: fixed;
   width: 100vw;
@@ -16,6 +20,7 @@ navbar{
   flex-direction: row;
   height:8vh;
   background-color: #202D69;
+  z-index: 5;
 }
 
 .logo{
@@ -110,13 +115,13 @@ hr{
   padding-top: 12vh;
 }
 
-.about{
+.about, .projects{
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-.about-title{
+.title{
   font-family: 'Montserrat', sans-serif;
   font-size: 35px;
   color: #202D69;
@@ -138,7 +143,7 @@ hr{
 }
 
 .right-column{
-  width: 450px;
+  width: 500px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -152,4 +157,71 @@ hr{
 
 .icon-tech:hover{
   transform: scale(1.4);
+}
+
+.projects-title{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+  color: #202D69;
+  border-bottom: solid #AB2849 5px;
+}
+
+.project-cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 800px;
+}
+
+.card {
+  width: 260px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin: 30px;
+  color: #202D69;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-title{
+  display: inline;
+  font-family: 'Montserrat', sans-serif;
+  border-bottom: solid #AB2849 3px;
+}
+
+.card-title a{
+  text-decoration: none;
+}
+
+.card p{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+button {
+  z-index: 1;
+  border: none;
+  transform: rotate(-90deg);
+  font-size: 20px;
+  font-weight: 800;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:focus {
+  outline:0;
 }
