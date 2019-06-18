@@ -249,6 +249,11 @@ hr{
   padding-bottom: 8px
 }
 
+.card-title{
+  font-family: 'Montserrat', sans-serif;
+  color: #202D69;
+}
+
 .card-icon-div{
   display: flex;
   justify-content: space-around;
