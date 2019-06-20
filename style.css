@@ -227,11 +227,17 @@ hr{
 
 .dot-icon:hover {
   cursor: pointer;
+  color: #FF7705;
 }
 
 .topButton{
   bottom: -5px;
 }
+
+.topButton:hover{
+  color: #FF7705;
+}
+
 
 .hidden{
   display: none;
