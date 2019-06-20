@@ -37,6 +37,11 @@ navbar{
   color: white;
 }
 
+.logo a:hover{
+  color: #FF7705;
+}
+
+
 .links{
   font-family: 'Montserrat', sans-serif;
   margin: 17px 30px;
@@ -184,7 +189,7 @@ hr{
   height: 291px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  margin: 30px;
+  margin: 30px 30px 0px 30px;
   color: #202D69;
 }
 
