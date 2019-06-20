@@ -24,9 +24,16 @@ navbar{
 }
 
 .logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.logo a{
   font-family: 'Montserrat', sans-serif;
-  margin: -35px 30px;
-  font-size: 30px;
+  font-size: 40px;
+  text-decoration: none;
   color: white;
 }
 
@@ -251,6 +258,11 @@ hr{
   color: #202D69;
 }
 
+.card a:hover{
+  color: #FF7705;
+}
+
+
 .card-icon-div{
   display: flex;
   justify-content: space-around;
@@ -260,6 +272,10 @@ hr{
   color: #202D69;
   font-size: 40px;
   margin-top: -7px;
+}
+
+.card-icon:hover{
+  color: #FF7705;
 }
 
 .contact-title{
