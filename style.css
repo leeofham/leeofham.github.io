@@ -409,7 +409,11 @@ hr{
   }
 
   .find-me{
-    width: 45px;
+    width: 80px;
+  }
+
+  .find-me i{
+    font-size: 80px;
   }
 
   .contact-section{
