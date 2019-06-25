@@ -7,7 +7,7 @@ html, body{
   flex-direction: column;
   margin: 0;
   scroll-behavior: smooth;
-  overflow-x:
+  overflow-x: hidden;
 }
 
 .footer-link:visited{
