@@ -366,6 +366,7 @@ hr{
 
   .about-columns{
     display: block;
+    max-width: 400px;
   }
 
   .left-column{
@@ -400,8 +401,5 @@ hr{
     font-size: 30px;
     left: 220px;
     bottom: -10px;
-  }
-  .contact{
-    max-width: 400px;
   }
 }
