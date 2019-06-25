@@ -127,7 +127,7 @@ hr{
 }
 
 .anchor {
-  padding-top: 12vh;
+  padding-top: 9vh;
 }
 
 .title{
@@ -136,6 +136,11 @@ hr{
   color: #202D69;
   border-bottom: solid #AB2849 5px;
   margin-bottom: 8vh;
+}
+
+.about{
+  width: 100vw;
+  border-top: solid #AB2849 8px;
 }
 
 .about-columns{
@@ -168,10 +173,17 @@ hr{
   transform: scale(1.4);
 }
 
+.projects{
+  background-color: #202D69;
+  width: 100vw;
+  height: 100vh;
+  border-top: solid #FF7705 8px;
+}
+
 .projects-title{
   font-family: 'Montserrat', sans-serif;
   font-size: 35px;
-  color: #202D69;
+  color: white;
   border-bottom: solid #AB2849 5px;
 }
 
@@ -187,10 +199,11 @@ hr{
 .card {
   width: 260px;
   height: 291px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
   transition: 0.3s;
   margin: 30px 30px 0px 30px;
   color: #202D69;
+  background-color: white;
 }
 
 .card img{
@@ -198,7 +211,7 @@ hr{
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
 }
 
 .card-title{
@@ -273,7 +286,6 @@ hr{
   color: #FF7705;
 }
 
-
 .card-icon-div{
   display: flex;
   justify-content: space-around;
@@ -287,6 +299,12 @@ hr{
 
 .card-icon:hover{
   color: #FF7705;
+}
+
+.contact{
+  width: 100vw;
+  height: 100%;
+  border-top: solid #AB2849 8px;
 }
 
 .contact-title{
@@ -322,4 +340,61 @@ hr{
 
 .find-me a:hover{
   color: #FF7705;
+}
+
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+  .navbar{
+    height: 8vh;
+  }
+  .about, .projects, .contact{
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .title{
+    margin-bottom: 10px;
+  }
+
+  .about-columns{
+    display: block;
+  }
+
+  .left-column{
+    font-size: 15px;
+    max-width: 400px;
+    margin: auto;
+  }
+  .right-column{
+    margin: auto;
+    max-width: 400px;
+  }
+
+  .icon-tech{
+    font-size: 60px;
+  }
+
+  .projects{
+    padding-bottom: 30px;
+  }
+
+  .project-cards{
+    width:100vw;
+  }
+
+  .dot-icon{
+    font-size: 30px;
+    bottom: 108px;
+    left: 235px;
+
+  }
+  .topButton{
+    font-size: 30px;
+    left: 220px;
+    bottom: -10px;
+  }
 }
