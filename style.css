@@ -6,6 +6,7 @@ html, body{
   display: flex;
   flex-direction: column;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 a:visited{
@@ -366,17 +367,17 @@ hr{
 
   .about-columns{
     display: block;
-    max-width: 400px;
+    max-width: 350px;
   }
 
   .left-column{
     font-size: 15px;
-    max-width: 400px;
+    max-width: 350px;
     margin: auto;
   }
   .right-column{
     margin: auto;
-    max-width: 400px;
+    max-width: 350px;
   }
 
   .icon-tech{
