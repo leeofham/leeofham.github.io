@@ -90,6 +90,7 @@ navbar{
   align-items: center;
   flex-direction: column;
   height: 100vh;
+  min-height: 100vh;
   background-color: #202D69;
 }
 
