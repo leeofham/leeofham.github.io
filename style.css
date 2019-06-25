@@ -403,4 +403,19 @@ hr{
     left: 220px;
     bottom: -10px;
   }
+
+  .hide-mob{
+    display: none;
+  }
+
+  .find-me{
+    width: 45px;
+  }
+
+  .contact-section{
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
